@@ -14,7 +14,7 @@ export const Landing = () => {
     const [isDragging, setIsDragging] = useState(false);
 
     // TODO: fine to expose key in local-only app as requested by user "only frontend"
-    const API_KEY = "AIzaSyAke1OT1q-ZhS5Rv1Sknsd4MzRCAweY6Qk";
+    const API_KEY = "Gemini Api Key";
 
     const extractTextFromPDF = async (file: File): Promise<string> => {
         const arrayBuffer = await file.arrayBuffer();
